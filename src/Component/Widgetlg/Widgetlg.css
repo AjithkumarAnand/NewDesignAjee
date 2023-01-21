@@ -1,0 +1,64 @@
+.widgetlg {
+  flex: 2;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 14px 5px #000000;
+  box-shadow: 0px 0px 15px -10px #000000;
+  padding: 20px;
+}
+.widgetlgImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.widgetlgUser {
+  display: flex;
+}
+.widgetlgName {
+  padding: 10px;
+  margin: 10px;
+  font-weight: 600;
+}
+.widgetlg_Title {
+  font-weight: 800;
+  color: blue;
+}
+
+.widgetlgButton.Approved {
+  background-color: green;
+}
+
+.widgetlgButton.Approved {
+  background-color: #e5faf2;
+
+  color: green;
+  border-radius: 10px;
+  border: none;
+  font-weight: 300;
+}
+.widgetlgButton.Rejected {
+  color: red;
+  background-color: rgb(241, 223, 223);
+  border-radius: 10px;
+  border: none;
+  font-weight: 300;
+}
+
+.widgetlgButton.Pending {
+  color: orange;
+  background-color: rgb(245, 242, 238);
+  border-radius: 10px;
+  border: none;
+}
+.widgetlgTable {
+  width: 100%;
+  border-spacing: 5px;
+}
+
+.widgetlgDate .widgetlgAmount .widgetlgName .widgetlgStatus .widgetlgTh {
+  padding: 10px;
+  font-weight: 300;
+}
+.widgetlgTh {
+  text-align: left;
+  font-size: 20px;
+}
